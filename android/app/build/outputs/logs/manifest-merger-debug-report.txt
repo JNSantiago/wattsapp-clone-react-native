@@ -1,40 +1,75 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-firebase] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ad8e36554f20f47791f1b1f8c3ce5f22/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e349c5253d1b7cf0c78530601cc5ee02/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/9d226b3ab065447316e98c6e713b448f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/62711c3d9d8cf463012d1c87c3128cb6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/7b61cbdba66d695c5bda8d8b37fa63fa/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/d06ffb6c8ce9272da7b154a3ed4973bd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/fbd4cc6e45b97a9b04e036667acbdc46/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cd826c89e1a0c1de2593ad329ffc5ab6/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/376fa7ceac5793fc6a19b00c7d7382b9/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/8fdef23a8b952a9f0c405e6c55c1c1ba/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/33739b8f65ce713b28632aaaff249f90/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/473b85ca3d2da35c35903270b816f72e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/f5f66bcc6c544337d61c711d00871b59/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/a9231710181d343eb05865396162e051/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/75282aea03100b135670bb0d97d132d5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/4e0ea34e8909b14ab12d8bf8116d3fbe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/e536eb96f45fd6fe6bc3a5cbe1f3cdfe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/835d32c3c76ac5a0c71843844b41cc15/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/fab4e3dcb6b884b00260535e2f9aaa1f/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12
 	package
 		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:2:5-32
 		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12
 		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:11-69
-	android:versionCode
-		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-firebase] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ad8e36554f20f47791f1b1f8c3ce5f22/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ad8e36554f20f47791f1b1f8c3ce5f22/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:5:22-75
 application
 ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ad8e36554f20f47791f1b1f8c3ce5f22/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ad8e36554f20f47791f1b1f8c3ce5f22/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e349c5253d1b7cf0c78530601cc5ee02/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e349c5253d1b7cf0c78530601cc5ee02/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cd826c89e1a0c1de2593ad329ffc5ab6/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cd826c89e1a0c1de2593ad329ffc5ab6/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/376fa7ceac5793fc6a19b00c7d7382b9/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/376fa7ceac5793fc6a19b00c7d7382b9/AndroidManifest.xml:2:3-17
 	android:label
 		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:9:7-39
-	android:allowBackup
-		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:icon
 		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
 		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
@@ -49,7 +84,7 @@ ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/And
 		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:16:9-79
 	android:name
 		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:14:9-37
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
 ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:19:13-65
@@ -65,26 +100,69 @@ ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/And
 		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
 INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ad8e36554f20f47791f1b1f8c3ce5f22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ad8e36554f20f47791f1b1f8c3ce5f22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e349c5253d1b7cf0c78530601cc5ee02/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e349c5253d1b7cf0c78530601cc5ee02/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/9d226b3ab065447316e98c6e713b448f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/9d226b3ab065447316e98c6e713b448f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/62711c3d9d8cf463012d1c87c3128cb6/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/62711c3d9d8cf463012d1c87c3128cb6/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/7b61cbdba66d695c5bda8d8b37fa63fa/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/7b61cbdba66d695c5bda8d8b37fa63fa/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/d06ffb6c8ce9272da7b154a3ed4973bd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/d06ffb6c8ce9272da7b154a3ed4973bd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/fbd4cc6e45b97a9b04e036667acbdc46/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/fbd4cc6e45b97a9b04e036667acbdc46/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cd826c89e1a0c1de2593ad329ffc5ab6/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cd826c89e1a0c1de2593ad329ffc5ab6/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/8fdef23a8b952a9f0c405e6c55c1c1ba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/8fdef23a8b952a9f0c405e6c55c1c1ba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/33739b8f65ce713b28632aaaff249f90/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/33739b8f65ce713b28632aaaff249f90/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/473b85ca3d2da35c35903270b816f72e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/473b85ca3d2da35c35903270b816f72e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/f5f66bcc6c544337d61c711d00871b59/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/f5f66bcc6c544337d61c711d00871b59/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/a9231710181d343eb05865396162e051/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/a9231710181d343eb05865396162e051/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/75282aea03100b135670bb0d97d132d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/75282aea03100b135670bb0d97d132d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/4e0ea34e8909b14ab12d8bf8116d3fbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/4e0ea34e8909b14ab12d8bf8116d3fbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/e536eb96f45fd6fe6bc3a5cbe1f3cdfe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/e536eb96f45fd6fe6bc3a5cbe1f3cdfe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/835d32c3c76ac5a0c71843844b41cc15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/835d32c3c76ac5a0c71843844b41cc15/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/fab4e3dcb6b884b00260535e2f9aaa1f/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/joaoneto/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/fab4e3dcb6b884b00260535e2f9aaa1f/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
 		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [:react-native-firebase] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [:react-native-firebase] /Users/joaoneto/Projects/react/wettsappclone/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_PHONE_STATE
+uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from /Users/joaoneto/Projects/react/wettsappclone/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

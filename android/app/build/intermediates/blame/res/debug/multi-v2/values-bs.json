@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/joaoneto/Projects/react/wettsappclone/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml",
+            "map": [
+                {
+                    "source": "/Users/joaoneto/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/835d32c3c76ac5a0c71843844b41cc15/res/values-bs/values-bs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

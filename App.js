@@ -5,11 +5,13 @@ import { createStore, applyMiddleware } from 'redux';
 import ReduxThunk from 'redux-thunk';
 
 import Reducers from './src/Reducers';
-import Preload from './src/Preload';
-import Home from './src/Home';
-import Conversations from './src/Conversations';
-import SignUp from './src/SignUp';
-import SignIn from './src/SignIn';
+import Preload from './src/screens/Preload';
+import Home from './src/screens/Home';
+import Conversations from './src/screens/Conversations';
+import SignUp from './src/screens/SignUp';
+import SignIn from './src/screens/SignIn';
+
+console.disableYellowBox = true;
 
 let store = createStore(Reducers, applyMiddleware(ReduxThunk));
 
@@ -21,7 +23,15 @@ const Navigation = createStackNavigator({
     screen: Home
   },
   Conversations: {
-    screen: Conversations
+    screen: Conversations,
+    navigationOptions: ({ navigation }) => ({
+      headerStyle: {
+        backgroundColor: '#128C7E', 
+        elevation: null
+      },
+      headerTintColor: '#ECE5DD',
+      title: 'WattsApp Clone'
+    }),
   },
   SignUp: {
     screen: SignUp
