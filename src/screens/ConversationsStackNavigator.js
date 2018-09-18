@@ -9,9 +9,12 @@ const ConversationsStackNavigator = StackNavigator({
     ConversationsList: {
         screen: ConversationsList
     },
-    InternalConversation: {
-        screen: InternalConversation
-    }
+    /*InternalConversation: {
+        screen: InternalConversation,
+        navigationOptions: {
+            tabBarVisible: false
+        }
+    }*/
 })
 
 export default ConversationsStackNavigator;

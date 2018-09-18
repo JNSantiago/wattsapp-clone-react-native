@@ -6,12 +6,16 @@ import {
     StyleSheet,
     TextInput,
     Keyboard,
-    TouchableOpacity
+    TouchableOpacity,
+    FlatList
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import { NavigationActions, StackActions } from 'react-navigation';
 import { connect } from 'react-redux';
+import { getChatList, setActiveChat } from '../actions/ChatActions';
+
+import ConversationItem from './../components/ConversationsList/ConversationItem';
 
 export class ConversationsList extends Component {
     static navigationOptions = {
@@ -21,12 +25,16 @@ export class ConversationsList extends Component {
     constructor(props) {
         super(props);
 
+        this.props.getChatList(this.props.uid);
+
         this.openContactList = this.openContactList.bind(this);
+        this.conversationClick = this.conversationClick.bind(this);
     }
 
     componentDidUpdate() {
         if(this.props.activeChat != '') {
-            this.props.navigation.navigate('InternalConversation');
+            //window.globalNavigator.navigate('Message');
+            this.props.navigation.navigate('InternalConversation', { title: this.props.activeChatTitle });
         }
     }
 
@@ -34,10 +42,18 @@ export class ConversationsList extends Component {
         
     }
 
+    conversationClick(data) {
+        this.props.setActiveChat(data.key)
+    }
+
     render() {
         return(
             <View style={ styles.container }>
-                <Text>Conversations - { this.props.uid }</Text>
+                <FlatList
+                    data={this.props.chats}
+                    renderItem={({item}) => <ConversationItem data={item}
+                    onPress={this.conversationClick} />
+                } />
 
                 <TouchableOpacity
                     onPress={this.openContactList}
@@ -76,9 +92,11 @@ const mapStateToProps = (state) => {
     return {
         status: state.auth.status,
         uid: state.auth.uid,
-        activeChat: state.chat.activeChat
+        activeChat: state.chat.activeChat,
+        chats: state.chat.chats,
+        activeChatTitle: state.chat.activeChatTitle
     }
 }
 
-const ConversationsListConnect = connect(mapStateToProps, {  })(ConversationsList);
+const ConversationsListConnect = connect(mapStateToProps, { getChatList, setActiveChat })(ConversationsList);
 export default ConversationsListConnect;

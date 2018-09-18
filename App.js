@@ -11,6 +11,8 @@ import Conversations from './src/screens/Conversations';
 import SignUp from './src/screens/SignUp';
 import SignIn from './src/screens/SignIn';
 
+import InternalConversation from './src/screens/InternalConversation'
+
 console.disableYellowBox = true;
 
 let store = createStore(Reducers, applyMiddleware(ReduxThunk));
@@ -21,6 +23,12 @@ const Navigation = createStackNavigator({
   },
   Home: {
     screen: Home
+  },
+  InternalConversation: {
+    screen: InternalConversation,
+    navigationOptions: {
+        tabBarVisible: false
+    }
   },
   Conversations: {
     screen: Conversations,

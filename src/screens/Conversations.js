@@ -9,7 +9,8 @@ const Conversations = TabNavigator({
     ConversationsStack: {
         screen: ConversationsStackNavigator,
         navigationOptions: {
-            tabBarLabel: 'Conversas'
+            tabBarLabel: 'Conversas',
+            header: null
         }
     },
     ContactList: {
